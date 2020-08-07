@@ -4,6 +4,7 @@
     <img src="@/assets/logo.png" class="img-fluid" alt="Responsive image" width="250px" />
     <img src="@/assets/githublogo.png" class="img-fluid" alt="Responsive image" width="150px" />
     <div class="row">
+      <Afuego />
       <Estadistica />
       <Estadistica />
     </div>
@@ -12,11 +13,13 @@
 
 <script>
 import Estadistica from "./components/Estadistica.vue";
+import Afuego from "./components/Afuego.vue";
 
 export default {
   name: "App",
   components: {
     Estadistica,
+    Afuego,
   },
 };
 </script>

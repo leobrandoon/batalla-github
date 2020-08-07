@@ -17,7 +17,7 @@
             @click="infoUser"
             class="btn btn-outline-secondary"
             type="button"
-            id="button-addon1"
+            id="button-addon1"        
           >Go!</button>
         </div>
       </div>
